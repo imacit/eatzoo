@@ -35,4 +35,8 @@ public class mainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void hello(String a){
+        System.out.println(a);
+    }
 }
